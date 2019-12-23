@@ -149,7 +149,19 @@ String NTPClient::getFormattedTime12(unsigned long secs) {
 
   String AMPM = "AM";
   
-  if(hours > 12){
+  if(hours == 0 && hours != 12){
+    hours = 12;
+    //AMPM = "AM";
+  }
+  else if(hours == 12 && hours != 0){
+    hours = 12;
+    AMPM = "PM";
+  }
+  else if(hours < 12 && hours != 0){
+      //hours == hours;
+      //AMPM = "AM";
+  }
+  else if(hours > 12 && hours !=0){
     hours = hours - 12;
     AMPM = "PM";
   }
