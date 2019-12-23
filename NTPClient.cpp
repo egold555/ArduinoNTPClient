@@ -204,7 +204,7 @@ String NTPClient::getFormattedDate(unsigned long secs) {
   //return String(year) + "-" + monthStr + "-" + dayStr + "T" + this->getFormattedTime(secs ? secs : 0) + "Z";
   
   //Eric Modification
-  return monthStr + "-" + dayStr + "-" + String(year);
+  return monthStr + "/" + dayStr + "/" + String(year);
 }
 
 String NTPClient::getFormattedDay(){
