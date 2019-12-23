@@ -41,6 +41,7 @@ void loop() {
 
   Serial.println(timeClient.getFormattedDay());
   Serial.println(timeClient.getFormattedTime12());
+  //Serial.println(timeClient.getFormattedTime24());
   Serial.println(timeClient.getFormattedDate());
   Serial.println();
 
