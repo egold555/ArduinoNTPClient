@@ -14,8 +14,8 @@ I have added my own modifications to suit my own project(s).
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
 
-const char *ssid     = "EricDebug";
-const char *password = "debug1234";
+const char *ssid     = "YOUR_SSID_HERE";
+const char *password = "YOUR_PASSWORD_HERE";
 
 const long utcOffsetInSeconds = -28800;
 
