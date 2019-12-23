@@ -1,7 +1,10 @@
 # ArduinoNTPClient
 Arduino NTPClient for ESP8266
 
-Code used, based on and modified from https://github.com/taranais/NTPClient, https://github.com/arduino-libraries/NTPClient, https://github.com/PaulStoffregen/Time/blob/master/Time.cpp
+Code used, based on and modified from:
+  - https://github.com/taranais/NTPClient
+  - https://github.com/arduino-libraries/NTPClient 
+  - https://github.com/PaulStoffregen/Time/blob/master/Time.cpp
 
 I have added my own modifications to suit my own project(s).
 
